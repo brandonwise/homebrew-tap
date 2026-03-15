@@ -1,26 +1,26 @@
 class Agentwise < Formula
   desc "A fast, offline security scanner for MCP server configurations"
   homepage "https://github.com/brandonwise/agentwise"
-  version "0.1.0"
+  version "0.1.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/brandonwise/agentwise/releases/download/v0.1.0/agentwise-0.1.0-macos-arm64.tar.gz"
-      sha256 "6d8b4c8362bf5e1c1805340a0955a9e0d10ba87dc8fa72b45b4a3af67f15b6a2"
+      url "https://github.com/brandonwise/agentwise/releases/download/v0.1.1/agentwise-0.1.1-macos-arm64.tar.gz"
+      sha256 "c41b665e5cb3575dc66fc6c5ae6aa56c90782051921430e2ac60564462ee9d9b"
     else
-      url "https://github.com/brandonwise/agentwise/releases/download/v0.1.0/agentwise-0.1.0-macos-amd64.tar.gz"
-      sha256 "a002fd0f3095d2decc77086f5984259cb1bbdb185ea819f465d4d5771c460b94"
+      url "https://github.com/brandonwise/agentwise/releases/download/v0.1.1/agentwise-0.1.1-macos-amd64.tar.gz"
+      sha256 "aca6653dbb1c1b6f0e3415c8ff08f55b9cc2801182b3635b71a4a3538c22867d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/brandonwise/agentwise/releases/download/v0.1.0/agentwise-0.1.0-linux-arm64.tar.gz"
-      sha256 "7a6c1cea0b8490cc1eb1c80f081bbdf882228b7b79c7fc197eb1b167b6f832e2"
+      url "https://github.com/brandonwise/agentwise/releases/download/v0.1.1/agentwise-0.1.1-linux-arm64.tar.gz"
+      sha256 "6dc9cdc0142427b1034fc782f890265c15ac561680bb0447d1d4ef91e41df1f8"
     else
-      url "https://github.com/brandonwise/agentwise/releases/download/v0.1.0/agentwise-0.1.0-linux-amd64.tar.gz"
-      sha256 "077133d59c5d2d6b48a7eafbf70971a4070f887e0903773b784689a2b72991bf"
+      url "https://github.com/brandonwise/agentwise/releases/download/v0.1.1/agentwise-0.1.1-linux-amd64.tar.gz"
+      sha256 "50d2c67bb16018cbee6dac8bd00a3800f6880beac7fbfcdf1c3d5e2d657c271c"
     end
   end
 
